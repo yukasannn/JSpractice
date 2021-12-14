@@ -30,3 +30,22 @@ if (scoreA >= 300 && scoreB >= 300) {
 } else if (scoreA < 300 && scoreB < 300) {
   console.log("頑張ろう");
 }
+
+//繰り返し　問題
+const test = ["国語", "数学", "英語"];
+test.push("理科");
+test.push("社会");
+console.log(test);
+//
+for (let i = 1; i<= 50; i++){
+  if (i % 15 == 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 == 0) {
+    console.log("Fizz");
+  } else if (i & 5 == 0) {
+    console.log("Buzz");
+  } else {
+    console.log (i)
+  }
+}
+
